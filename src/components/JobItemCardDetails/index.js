@@ -193,7 +193,7 @@ class JobItemCardDetails extends Component {
   }
 
   OnClickRetryButton = () => {
-    this.renderSuccessView()
+    this.getJobCardDetails()
   }
 
   renderFailureView = () => (
